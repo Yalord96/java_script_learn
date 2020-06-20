@@ -1,27 +1,76 @@
-var message;
-var n = 123;
-var str = 'Дима намазал волосы гелем на прошлом занятии';
-var logic = true;
-var nothing = null;
-var x;
-
-var years = prompt('Сколько тебе лет?', '');
-var year = 2020;
+var js = prompt('Каково оффициальное название "Javascript"?','');
 
 
-alert('Вы родились в  ' +(year-years)+ ' году!');
+if (js == 'ECMAScript') {
+    alert('Верно!');
+}
+else {
+    alert('не знаете? "ECMAScript"!');
+}
 
-var dollar = prompt('Курс доллара: ', 26.86);
-var uah = prompt('Сколько у тебя грн? ', '');
+var value = prompt('Укажите значение','');
+if (value > 0){
+    alert('1');
+}
+else if (value < 0){
+    alert('-1');
+}
+ else if (value == 0){
+     alert('0');
+}
 
-    alert('У тебя получается: '+(dollar*uah)+'долларов!');
+var admin = prompt('Введите логин:','');
 
-var gel = confirm("Дима мазал гелем волосы на прошлом занятии?");
+ if (admin == 'admin') {
+     var password = prompt('Введите пароль', '');
+ }
+ else {
+     alert('Я Вас не знаю');
+ }
+     if (password == 'Чёрный властелин'){
+         alert('Добро пожаловать!');}
+             else {
+                 alert('пароль неверен!');
+             }
 
-alert(gel);
 
-console.log(typeof 42);
-console.log(typeof 'qwe');
-console.log(typeof true);
-console.log(typeof dasdasdas);
-console.log(typeof {a: 1});
+
+var i = 0;
+while (i < 3){
+    alert(i);
+    i++;
+}
+
+var i = 0;
+
+do {
+    i = prompt('введи число','');
+}
+while (i != 100);
+
+
+alert('Дима намазал голову гелем');
+
+
+
+
+// var years = prompt('Сколько тебе лет?', '');
+// var year = 2020;
+//
+//
+// alert('Вы родились в  ' +(year-years)+ ' году!');
+//
+// var dollar = prompt('Курс доллара: ', 26.86);
+// var uah = prompt('Сколько у тебя грн? ', '');
+//
+//     alert('У тебя получается: '+(dollar*uah)+'долларов!');
+//
+// var gel = confirm("Дима мазал гелем волосы на прошлом занятии?");
+//
+// alert(gel);
+//
+// console.log(typeof 42);
+// console.log(typeof 'qwe');
+// console.log(typeof true);
+// console.log(typeof dasdasdas);
+// console.log(typeof {a: 1});
