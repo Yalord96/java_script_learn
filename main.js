@@ -23,15 +23,16 @@ var admin = prompt('Введите логин:','');
 
  if (admin == 'admin') {
      var password = prompt('Введите пароль', '');
+     if (password == 'Чёрный властелин'){
+         alert('Добро пожаловать!');}
+     else {
+         alert('пароль неверен!');
+     }
  }
  else {
      alert('Я Вас не знаю');
  }
-     if (password == 'Чёрный властелин'){
-         alert('Добро пожаловать!');}
-             else {
-                 alert('пароль неверен!');
-             }
+
 
 
 
