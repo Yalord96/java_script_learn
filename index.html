@@ -2,11 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0,
+           maximum-scale=1.0, minimum-scale=1.0">
+    <style>
+        #mass p {
+            display: none;
+        }
+
+        #mass p.first {
+            display: block;
+        }
+        img{
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
     <title>learn_js</title>
-    <script src="main.js"></script>
 </head>
 <body>
-    <button onclick="">Click</button>
+<button onclick="ecmaScript()">Каково оффициальное название "Javascript"?</button>
+<button onclick="putValue()">Укажите значение</button>
+<button onclick="admin()">Проверка на Админа</button>
+<button onclick="whileValue()">3 клика циклом While</button>
+<button onclick="value100()">Вводи пока не будет 100</button>
+<button onclick="year()">Узнай в каком году родился</button>
+<button onclick="dollar()">Калькулятор доллар - грн</button>
 
+<h3>Выбранный язык</h3>
+<div id="mass">
+    <p class="first"><img src="img/lisa_ann.jpg"></p>
+    <p><img src="img/sasha_grey.jpg"></p>
+    <p><img src="img/brandy_love.jpg"></p>
+    <p class="last"><img src="img/nikol.jpg"></p>
+</div>
+<div>
+    <button id="prev">Назад</button>
+    <button id="next">Вперёд</button>
+</div>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
